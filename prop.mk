@@ -131,7 +131,7 @@ persist.ov13855_sunny.low.lux=385 \
 persist.ov13855_sunny.light.lux=370 \
 persist.s5k3l8_ofilm.low.lux=379 \
 persist.s5k3l8_ofilm.light.lux=367 \
-vidc.enc.dcvs.extra-buff-count=2
+vidc.enc.dcvs.extra-buff-count=2 \
 
 # Display
 PRODUCT_PROPERTY_OVERRIDES += \
@@ -139,7 +139,7 @@ debug.sf.latch_unsignaled=1 \
 debug.gralloc.enable_fb_ubwc=1 \
 debug.sf.recomputecrop=0 \
 debug.sf.hw=1 \
-ro.sf.lcd_density=480 \
+ro.sf.lcd_density=420 \
 sdm.debug.disable_skip_validate=1 \
 persist.hwc.enable_vds=1 \
 persist.debug.wfd.enable=1 \
