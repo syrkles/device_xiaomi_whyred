@@ -16,13 +16,13 @@
 
 # Inherit from those products. Most specific first.
 $(call inherit-product, $(SRC_TARGET_DIR)/product/core_64_bit.mk)
-$(call inherit-product, $(SRC_TARGET_DIR)/product/full_base_telephony.mk)
+$(call inherit-product, $(SRC_TARGET_DIR)/product/aosp_base_telephony.mk)
 
 # Inherit from whyred device
 $(call inherit-product, device/xiaomi/whyred/device.mk)
 
 # Inherit some common Bootleggers stuff.
-$(call inherit-product, vendor/nitrogen/config/common.mk)
+$(call inherit-product, vendor/nitrogen/product/common.mk)
 
 # Device identifier. This must come after all inclusions
 TARGET_VENDOR := Xiaomi
